@@ -13,22 +13,21 @@
 }
 
 .buttons{
-    padding: 0 15px;
+    margin: 15px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 190px);
-    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 165px);
     gap: 15px;
 }
 
 a{
     display: inline-block;
     color: white;
-    background-color: #red;
+    background-color: red;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
     text-align: center;
     width: 135px;
-    max-width: 160px;
+    max-width: 135px;
     padding: 15px;
 }
